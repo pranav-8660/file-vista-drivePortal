@@ -1,0 +1,28 @@
+.home-page-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home-page-container h1 {
+    color: #e20a68;
+  }
+  
+  .home-page-container button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #8517ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-page-container button:hover {
+    background-color: #0056b3;
+  }
+  

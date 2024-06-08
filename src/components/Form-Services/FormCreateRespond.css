@@ -1,0 +1,61 @@
+.dynamic-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dynamic-form-container h2 {
+    color: #e20a68;
+    text-align: center;
+  }
+  
+  .dynamic-form-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .dynamic-form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .dynamic-form-container #attributesContainer {
+    margin-bottom: 20px;
+  }
+  
+  .dynamic-form-container .attribute {
+    margin-bottom: 10px;
+  }
+  
+  .dynamic-form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #8517ec;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dynamic-form-container button[type="submit"] {
+    background-color: #4caf50;
+  }
+  
+  .dynamic-form-container button[type="button"] {
+    background-color: #0056b3;
+  }
+  
+  .dynamic-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    text-align: center;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  

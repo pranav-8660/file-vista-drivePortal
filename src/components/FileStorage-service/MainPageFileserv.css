@@ -1,0 +1,31 @@
+/* Style for the folder list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Set display to flex */
+    justify-content: center; /* Center the flex items horizontally */
+  }
+  
+  /* Style for each folder item */
+  li {
+    display: flex;
+    flex-direction: column; /* Set flex direction to column */
+    align-items: center;
+    margin: 0 20px; /* Add some margin between folder items */
+  }
+  
+  /* Style for the folder icon */
+  img {
+    width: 80px; /* Adjust size of the icons */
+    height: 80px; /* Adjust size of the icons */
+    margin-bottom: 10px; /* Add space between icon and folder name */
+  }
+  
+  /* Style for the folder name */
+  a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    text-align: center; /* Center the folder name */
+  }
+  

@@ -1,0 +1,56 @@
+/* audios.css */
+
+.audio-gallery-container {
+  padding: 20px;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center; /* Adjust alignment of buttons */
+}
+
+.buttons-container button {
+  padding: 10px 20px;
+  margin: 0 10px; /* Adjust margin */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttons-container button:hover {
+  background-color: #45a049;
+}
+
+.audio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.audio-element {
+  width: 100%;
+}
+
+.delete-options-container {
+  margin-top: 20px; /* Add margin to separate from buttons */
+  text-align: center; /* Align text to center */
+}
+
+.delete-options-container button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #ff4d4d; /* Red background color for delete button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-options-container button:hover {
+  background-color: #ff3333; /* Darker red on hover */
+}
